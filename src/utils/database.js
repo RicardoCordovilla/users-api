@@ -7,7 +7,7 @@ const db = new Sequelize({
     username: config.db.username, //? Variable de entorno del usuario
     password: config.db.password, //? Variable de entorno de la contraseña
     database: config.db.dbName, //? Variable de entorno de la base de datos
-    port: config.db.port
+    // port: config.db.port
 
 })
 
